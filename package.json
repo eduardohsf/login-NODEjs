@@ -1,0 +1,28 @@
+{
+  "name": "sitema-login",
+  "version": "1.0.0",
+  "description": "Sistema Login Node Js com MongoDb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardohsf/login-NODEjs.git"
+  },
+  "author": "Eduardo Henrique Santos Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardohsf/login-NODEjs/issues"
+  },
+  "homepage": "https://github.com/eduardohsf/login-NODEjs#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.2.3",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}

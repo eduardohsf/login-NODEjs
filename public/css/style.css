@@ -1,0 +1,77 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    /*background-color: blue;*/
+}
+.container {
+    
+    height: 100vh;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+.card {
+width: 350px;
+height: 220px;
+border-radius: 5%;
+background: rgba(255, 255, 255, 0.452);
+
+}
+
+.singup {
+    width: 350px;
+    height: 300px;
+    border-radius: 5%;
+    border: 1px solid;
+    background: rgba(255, 255, 255, 0.452);
+    box-shadow: 10px 5px 5px black;
+
+    
+}
+
+input[type=submit] {
+    background: #006699;
+    color: #ffffff;
+} 
+
+input {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;   
+    border: 1px solid #000000;
+    width: 150px
+}
+.signup-container {
+    text-align: center;
+    margin-top: 50px; /* Ajuste conforme necessário */
+}
+
+.signup-container h2 {
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.signup-container form {
+    display: inline-block;
+    text-align: left;
+}
+.login {
+    width: 350px;
+    height: 250px;
+    border-radius: 5%;
+    border: 1px solid;
+    background: rgba(255, 255, 255, 0.452);
+    box-shadow: 10px 5px 5px black;
+
+    
+}
+a {
+    background: #006699;
+    color: #ffffff;
+} 

@@ -1,0 +1,41 @@
+<html>
+<head>
+
+
+<title>Castro no Sistema Node JS</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+<div class="singup">
+    <h2>Cadastro </h2>
+<form id="cadastrar">
+    <label>Nome</label>
+    <br>
+    <input type="text" id="nome" name="nome" placeholder="Nome Completo">
+    <br>
+    <label>Email</label>
+    <br>
+    <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com">
+    <br>
+    <label>Senha</label>
+    <br>
+    <input type="password" id="pass" name="pass" placeholder="Senha">
+    <br>
+    <br>
+    <input type="submit" value="Criar Conta">
+    
+</form>
+<form action="/login">
+    <label>Já tem conta </label><br>
+    <input type="submit" value="Ir para Login" />
+</form>
+</div>
+</div>
+
+</body>
+<script src="../js/req-res.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
